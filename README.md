@@ -34,13 +34,13 @@ Vue.component('vue-scroll-indicator', VueScrollIndicator)
 
 Display the component using default style:
 
-```vue
+```html
 <vue-scroll-indicator></vue-scroll-indicator>
 ```
 
 Display the component using custom style _(any valid use of css units will do)_:
 
-```vue
+```html
 <vue-scroll-indicator
     height="7px"
     indicator-color="#11998e"
