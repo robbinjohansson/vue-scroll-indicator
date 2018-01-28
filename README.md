@@ -5,7 +5,7 @@
 # Vue-scroll-indicator
 Scroll indicator component using Vue.js.
 
-<img src="https://thumbs.gfycat.com/DefiniteHardBubblefish-size_restricted.gif" width="100%" />
+[Live Demo](https://robbinfellow.github.io/vue-scroll-indicator/)
 
 ## Installation
 ```shell

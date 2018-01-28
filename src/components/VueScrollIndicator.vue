@@ -28,7 +28,7 @@ export default {
         bgColor: {
             type: String,
             default: '#eaeaea',
-            required: true
+            required: false
         },
         indicatorColor: {
             type: String,
