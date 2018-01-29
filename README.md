@@ -17,17 +17,17 @@ $ npm i vue-scroll-indicator --save-dev
 #### Setup:
 
 ```javascript
-// register the plugin globally
-import Vue from 'vue';
-import VueScrollIndicator from 'vue-scroll-indicator';
+// register the plugin
+import Vue from 'vue'
+import VueScrollIndicator from 'vue-scroll-indicator'
 
-Vue.use(VueScrollIndicator);
+Vue.use(VueScrollIndicator)
 
 // ... or register the component manually
-import Vue from 'vue';
-import {VueScrollIndicator} from 'vue-scroll-indicator';
+import Vue from 'vue'
+import { VueScrollIndicator } from 'vue-scroll-indicator'
 
-Vue.component('vue-scroll-indicator', VueScrollIndicator);
+Vue.component('vue-scroll-indicator', VueScrollIndicator)
 ```
 
 ## Usage
