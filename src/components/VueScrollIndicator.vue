@@ -19,8 +19,6 @@
 
 <script>
 export default {
-    name: 'vue-scroll-indicator',
-
     props: {
         height: {
             type: String,
@@ -38,15 +36,13 @@ export default {
             required: false
         }
     },
-
     mounted() {
         this.scrollHandler()
-    },
 
+    },
     created(){
         window.addEventListener('scroll', this.scrollHandler)
     },
-
     data() {
         return {
             winScroll: '',
@@ -54,7 +50,6 @@ export default {
             indicatorWidth: '',
         }
     },
-
     methods: {
         scrollHandler(){
             this.winScroll = document.body.scrollTop || document.documentElement.scrollTop
