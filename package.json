@@ -1,9 +1,9 @@
 {
     "name": "vue-scroll-indicator",
     "description": "Scroll indicator component using Vue.js",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "author": "Robbin Johansson <robbinfellow@gmail.com>",
-    "main": "dist/vue-scroll-indicator.js",
+    "main": "dist/vue-scroll-indicator.min.js",
     "homepage": "https://github.com/robbinfellow/vue-scroll-indicator#readme",
     "license": "MIT",
     "repository": {
@@ -22,7 +22,7 @@
     "scripts": {
         "lint": "./node_modules/.bin/eslint --ext .js,.vue src",
         "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
-        "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+        "build": "cross-env NODE_ENV=production webpack -p --progress --hide-modules"
     },
     "dependencies": {
         "vue": "^2.5.11"
@@ -37,6 +37,7 @@
         "babel-loader": "^7.1.2",
         "babel-preset-env": "^1.6.0",
         "babel-preset-stage-3": "^6.24.1",
+        "clean-webpack-plugin": "^0.1.18",
         "cross-env": "^5.0.5",
         "css-loader": "^0.28.7",
         "eslint": "^4.16.0",
