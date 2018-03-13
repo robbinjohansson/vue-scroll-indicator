@@ -56,11 +56,9 @@ Display the component using custom style _(any valid use of css units will do)_:
 | `bg-color` | String | `false` | `#eaeaea` | Scroll indicator background-color
 | `indicator-color` | String | `false` | `linear-gradient(to right, #ec008c, #fc6767)` | Scroll indicator color
 
-## Author
+## Credits
 
-Robbin Johansson \<robbinfellow@gmail.com>.
-
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/robbinfellow)
+* [Robbin Johansson](https://github.com/robbinfellow)
 
 ## License
 
