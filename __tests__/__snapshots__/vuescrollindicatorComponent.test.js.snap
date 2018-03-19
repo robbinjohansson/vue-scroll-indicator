@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VueScrollIndicator can mount 1`] = `
+"
+            <div id=\\"app\\"><div class=\\"v-scroll--indicator-wrapper\\" style=\\"height: 5px; background: rgb(234, 234, 234);\\"><div class=\\"v-scroll--indicator\\"></div></div></div>
+        "
+`;

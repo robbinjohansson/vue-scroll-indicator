@@ -1,9 +1,14 @@
-[![npm](https://img.shields.io/npm/v/vue-scroll-indicator.svg)](https://www.npmjs.com/package/vue-scroll-indicator)
-[![npm](https://img.shields.io/npm/dt/vue-scroll-indicator.svg)](https://www.npmjs.com/package/vue-scroll-indicator)
-[![npm](https://img.shields.io/npm/l/vue-scroll-indicator.svg)](https://www.npmjs.com/package/vue-scroll-indicator)
+[![Latest Version on NPM](https://img.shields.io/npm/v/vue-scroll-indicator.svg?style=flat-square)](https://npmjs.com/package/vue-scroll-indicator)
+[![Total Downloads on NPM](https://img.shields.io/npm/dt/vue-scroll-indicator.svg)](https://www.npmjs.com/package/vue-scroll-indicator)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/robbinfellow/vue-scroll-indicator/master.svg?style=flat-square)](https://travis-ci.org/robbinfellow/vue-scroll-indicator)
 
 # Vue-scroll-indicator
 Scroll indicator component using Vue.js.
+
+## Demo
+
+[Link](https://robbinfellow.github.io/vue-scroll-indicator)
 
 ## Installation
 ```shell
@@ -42,8 +47,8 @@ Display the component using custom style _(any valid use of css units will do)_:
 ```html
 <vue-scroll-indicator
     height="7px"
-    indicator-color="#11998e"
-    bg-color="none"
+    color="#11998e"
+    background="none"
 >
 </vue-scroll-indicator>
 ```
@@ -53,13 +58,22 @@ Display the component using custom style _(any valid use of css units will do)_:
 | Prop | Data Type | Required | Default | Description
 | :--- | :--- | :--- | :--- | :--- |
 | `height` | String | `false` | `5px` | Scroll indicator height
-| `bg-color` | String | `false` | `#eaeaea` | Scroll indicator background-color
-| `indicator-color` | String | `false` | `linear-gradient(to right, #ec008c, #fc6767)` | Scroll indicator color
+| `color` | String | `false` | `linear-gradient(to right, #ec008c, #fc6767)` | Scroll indicator color
+| `background` | String | `false` | `#eaeaea` | Scroll indicator background-color
+
+### Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
 * [Robbin Johansson](https://github.com/robbinfellow)
+* [spatie/skeleton-vue](https://github.com/spatie/skeleton-vue)
 
 ## License
 
-Vue-scroll-indicator is an open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

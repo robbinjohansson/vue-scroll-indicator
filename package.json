@@ -1,54 +1,62 @@
 {
-    "name": "vue-scroll-indicator",
-    "description": "Scroll indicator component using Vue.js",
-    "version": "0.0.6",
-    "author": "Robbin Johansson <robbinfellow@gmail.com>",
-    "main": "dist/vue-scroll-indicator.min.js",
-    "homepage": "https://github.com/robbinfellow/vue-scroll-indicator#readme",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/robbinfellow/vue-scroll-indicator.git"
-    },
-    "bugs": {
-        "url": "https://github.com/robbinfellow/vue-scroll-indicator/issues"
-    },
-    "keywords": [
-        "vue",
-        "vue-component",
-        "scroll-indicator",
-        "scroll"
+  "name": "vue-scroll-indicator",
+  "version": "0.1.0",
+  "description": "Scroll indicator component using Vue.js",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config docs/webpack.config.js",
+    "build": "rm -rf dist && NODE_ENV=production webpack",
+    "lint": "eslint --ext .js,.vue --fix src __tests__; exit 0",
+    "prepublish": "yarn run test; yarn run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbinfellow/vue-scroll-indicator.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-component",
+    "scroll-indicator",
+    "scroll"
+  ],
+  "author": "Robbin Johansson <robbinfellow@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robbinfellow/vue-scroll-indicator/issues"
+  },
+  "homepage": "https://github.com/robbinfellow/vue-scroll-indicator#readme",
+  "peerDependencies": {
+    "vue": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.7.1",
+    "eslint-config-spatie": "^1.1.0",
+    "jest": "^19.0.0",
+    "jest-vue-preprocessor": "^0.2.0",
+    "vue": "^2.3.0",
+    "vue-loader": "^12.0.3",
+    "vue-template-compiler": "^2.3.0",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  },
+  "jest": {
+    "testRegex": "test.js$",
+    "moduleFileExtensions": [
+      "js",
+      "vue"
     ],
-    "scripts": {
-        "lint": "./node_modules/.bin/eslint --ext .js,.vue src",
-        "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
-        "build": "cross-env NODE_ENV=production webpack -p --progress --hide-modules"
-    },
-    "dependencies": {
-        "vue": "^2.5.11"
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not ie <= 8"
-    ],
-    "devDependencies": {
-        "babel-core": "^6.26.0",
-        "babel-loader": "^7.1.2",
-        "babel-preset-env": "^1.6.0",
-        "babel-preset-stage-3": "^6.24.1",
-        "clean-webpack-plugin": "^0.1.18",
-        "cross-env": "^5.0.5",
-        "css-loader": "^0.28.7",
-        "eslint": "^4.16.0",
-        "eslint-plugin-vue": "^4.2.0",
-        "file-loader": "^1.1.4",
-        "node-sass": "^4.5.3",
-        "postcss-cssnext": "^3.0.2",
-        "sass-loader": "^6.0.6",
-        "vue-loader": "^13.0.5",
-        "vue-template-compiler": "^2.4.4",
-        "webpack": "^3.6.0",
-        "webpack-dev-server": "^2.9.1"
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/jest-vue-preprocessor"
     }
+  }
 }
