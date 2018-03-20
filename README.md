@@ -6,10 +6,6 @@
 # Vue-scroll-indicator
 Scroll indicator component using Vue.js.
 
-## Demo
-
-[Link](https://robbinfellow.github.io/vue-scroll-indicator)
-
 ## Installation
 ```shell
 $ yarn add vue-scroll-indicator --dev
