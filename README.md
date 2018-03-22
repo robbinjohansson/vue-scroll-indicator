@@ -6,6 +6,10 @@
 # Vue-scroll-indicator
 Scroll indicator component using Vue.js.
 
+## Demo
+
+[Link](https://robbinfellow.github.io/vue-scroll-indicator/)
+
 ## Installation
 ```shell
 $ yarn add vue-scroll-indicator --dev
@@ -57,7 +61,7 @@ Display the component using custom style _(any valid use of css units will do)_:
 | `color` | String | `false` | `linear-gradient(to right, #ec008c, #fc6767)` | Scroll indicator color
 | `background` | String | `false` | `#eaeaea` | Scroll indicator background-color
 
-### Changelog
+## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
