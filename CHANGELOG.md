@@ -2,6 +2,11 @@
 
 All notable changes to `vue-scroll-indicator` will be documented in this file.
 
+## [0.1.1] - TBA
+
+### Fixed
+- Rename data `document` > `docHeight`.
+
 ## [0.1.0] - 2018-03-19
 
 ### Changed

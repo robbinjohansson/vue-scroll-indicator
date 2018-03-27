@@ -154,7 +154,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
         data: function data() {
             return {
                 scrolled: '',
-                document: '',
+                docHeight: '',
                 width: ''
             };
         },
@@ -162,8 +162,8 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
         methods: {
             scrollHandler: function scrollHandler() {
                 this.scrolled = document.body.scrollTop || document.documentElement.scrollTop;
-                this.document = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                this.width = this.scrolled / this.document * 100 + '%';
+                this.docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                this.width = this.scrolled / this.docHeight * 100 + '%';
             }
         }
     };

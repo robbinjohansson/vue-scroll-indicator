@@ -50,15 +50,15 @@ export default {
     data() {
         return {
             scrolled: '',
-            document: '',
+            docHeight: '',
             width: '',
         };
     },
     methods: {
         scrollHandler() {
             this.scrolled = document.body.scrollTop || document.documentElement.scrollTop;
-            this.document = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            this.width = (this.scrolled / this.document) * 100 + '%';
+            this.docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            this.width = (this.scrolled / this.docHeight) * 100 + '%';
         },
     },
 };
