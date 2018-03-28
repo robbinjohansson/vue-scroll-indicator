@@ -11171,12 +11171,14 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
             }
         },
         mounted: function mounted() {
-            this.scrollHandler();
+            //
         },
         created: function created() {
+            window.addEventListener('load', this.scrollHandler);
             window.addEventListener('scroll', this.scrollHandler);
         },
         destroyed: function destroyed() {
+            window.removeEventListener('load', this.scrollHandler);
             window.removeEventListener('scroll', this.scrollHandler);
         },
         data: function data() {

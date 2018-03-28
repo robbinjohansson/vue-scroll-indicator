@@ -39,12 +39,14 @@ export default {
         },
     },
     mounted() {
-        this.scrollHandler();
+        //
     },
     created() {
+        window.addEventListener('load', this.scrollHandler);
         window.addEventListener('scroll', this.scrollHandler);
     },
     destroyed() {
+        window.removeEventListener('load', this.scrollHandler);
         window.removeEventListener('scroll', this.scrollHandler);
     },
     data() {
