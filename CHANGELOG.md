@@ -2,7 +2,7 @@
 
 All notable changes to `vue-scroll-indicator` will be documented in this file.
 
-## [0.1.1] - TBA
+## [0.1.1] - 2018-04-09
 
 ### Changed
 - Replace mounted `scrollHandler()` in favor of `EventListener('load')`.
