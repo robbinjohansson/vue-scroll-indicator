@@ -125,6 +125,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
         value: true
     });
     exports.default = {
+        name: 'vue-scroll-indicator',
         props: {
             height: {
                 type: String,

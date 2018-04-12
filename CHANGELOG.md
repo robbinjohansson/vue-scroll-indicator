@@ -2,6 +2,11 @@
 
 All notable changes to `vue-scroll-indicator` will be documented in this file.
 
+## [0.1.2] - TBA
+
+### Added
+- Add component name.
+
 ## [0.1.1] - 2018-04-09
 
 ### Changed

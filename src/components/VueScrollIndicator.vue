@@ -21,6 +21,7 @@
 
 <script>
 export default {
+    name: 'vue-scroll-indicator',
     props: {
         height: {
             type: String,
