@@ -22,6 +22,7 @@
 <script>
 export default {
     name: 'vue-scroll-indicator',
+
     props: {
         height: {
             type: String,
@@ -39,17 +40,7 @@ export default {
             required: false,
         },
     },
-    mounted() {
-        //
-    },
-    created() {
-        window.addEventListener('load', this.scrollHandler);
-        window.addEventListener('scroll', this.scrollHandler);
-    },
-    destroyed() {
-        window.removeEventListener('load', this.scrollHandler);
-        window.removeEventListener('scroll', this.scrollHandler);
-    },
+
     data() {
         return {
             scrolled: '',
@@ -57,6 +48,17 @@ export default {
             width: '',
         };
     },
+
+    created() {
+        window.addEventListener('load', this.scrollHandler);
+        window.addEventListener('scroll', this.scrollHandler);
+    },
+
+    destroyed() {
+        window.removeEventListener('load', this.scrollHandler);
+        window.removeEventListener('scroll', this.scrollHandler);
+    },
+
     methods: {
         scrollHandler() {
             this.scrolled = document.body.scrollTop || document.documentElement.scrollTop;

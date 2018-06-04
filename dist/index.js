@@ -126,6 +126,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     });
     exports.default = {
         name: 'vue-scroll-indicator',
+
         props: {
             height: {
                 type: String,
@@ -143,8 +144,13 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
                 required: false
             }
         },
-        mounted: function mounted() {
-            //
+
+        data: function data() {
+            return {
+                scrolled: '',
+                docHeight: '',
+                width: ''
+            };
         },
         created: function created() {
             window.addEventListener('load', this.scrollHandler);
@@ -154,13 +160,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
             window.removeEventListener('load', this.scrollHandler);
             window.removeEventListener('scroll', this.scrollHandler);
         },
-        data: function data() {
-            return {
-                scrolled: '',
-                docHeight: '',
-                width: ''
-            };
-        },
+
 
         methods: {
             scrollHandler: function scrollHandler() {
