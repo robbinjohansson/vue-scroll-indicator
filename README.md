@@ -8,7 +8,7 @@ Scroll indicator component using Vue.js.
 
 ## Demo
 
-[Link](https://robbinfellow.github.io/vue-scroll-indicator/)
+[Link](https://robbinworks.github.io/vue-scroll-indicator/)
 
 ## Installation
 ```shell
