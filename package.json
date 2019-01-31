@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robbinfellow/vue-scroll-indicator.git"
+    "url": "git+https://github.com/robbinworks/vue-scroll-indicator.git"
   },
   "keywords": [
     "vue",
@@ -22,12 +22,12 @@
     "scroll-indicator",
     "scroll"
   ],
-  "author": "Robbin Johansson <robbinfellow@gmail.com>",
+  "author": "Robbin Johansson <mail@robbin.works>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robbinfellow/vue-scroll-indicator/issues"
+    "url": "https://github.com/robbinworks/vue-scroll-indicator/issues"
   },
-  "homepage": "https://github.com/robbinfellow/vue-scroll-indicator#readme",
+  "homepage": "https://github.com/robbinworks/vue-scroll-indicator#readme",
   "peerDependencies": {
     "vue": "^2.3.0"
   },

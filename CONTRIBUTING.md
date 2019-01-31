@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/robbinfellow/vue-scroll-indicator).
+We accept contributions via Pull Requests on [Github](https://github.com/robbinworks/vue-scroll-indicator).
 
 ## Pull Requests
 

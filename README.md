@@ -1,7 +1,6 @@
 [![Latest Version on NPM](https://img.shields.io/npm/v/vue-scroll-indicator.svg?style=flat-square)](https://npmjs.com/package/vue-scroll-indicator)
 [![Total Downloads on NPM](https://img.shields.io/npm/dt/vue-scroll-indicator.svg)](https://www.npmjs.com/package/vue-scroll-indicator)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/robbinfellow/vue-scroll-indicator/master.svg?style=flat-square)](https://travis-ci.org/robbinfellow/vue-scroll-indicator)
 
 # Vue-scroll-indicator
 Scroll indicator component using Vue.js.
@@ -71,7 +70,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-* [Robbin Johansson](https://github.com/robbinfellow)
+* [Robbin Johansson](https://github.com/robbinworks)
 * [spatie/skeleton-vue](https://github.com/spatie/skeleton-vue)
 
 ## License
